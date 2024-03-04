@@ -75,7 +75,7 @@ const Contacts = () => {
           className="w-full flex flex-col gap-7 mt-14"
           onSubmit={handleSubmit}
         >
-          <label className="text-black-500 font-semibold">
+          <label className="text-slate-300 font-semibold">
             Name
             <input
               type="text"
@@ -89,7 +89,7 @@ const Contacts = () => {
               onBlur={handleBlur}
             />
           </label>
-          <label className="text-black-500 font-semibold">
+          <label className="text-slate-300 font-semibold">
             Email
             <input
               type="email"
@@ -103,7 +103,7 @@ const Contacts = () => {
               onBlur={handleBlur}
             />
           </label>
-          <label className="text-black-500 font-semibold">
+          <label className="text-slate-300 font-semibold">
             Your message
             <textarea
               name="message"

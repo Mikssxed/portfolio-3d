@@ -20,14 +20,14 @@ const renderContent = {
   ),
   2: (
     <InfoBox
-      text="Worked with many companies and picked up many skills along the way"
+      text="Got over year of commercial experience and picked up many skills along the way"
       link="/about"
       btnText="Learn more"
     />
   ),
   3: (
     <InfoBox
-      text="Led multiple projects to success over the years. Curious about the impact?"
+      text="Created multiple projects over 2 years of learning. Curious about the impact?"
       link="/projects"
       btnText="Visit my portfolio"
     />

@@ -15,7 +15,7 @@ const About = () => {
           Wojtek
         </span>
       </h1>
-      <div className="mt-5 flex flex-col gap-3 text-slate-500">
+      <div className="mt-5 flex flex-col gap-3 text-slate-300">
         <p>
           Software Engineer based in Poland, specializing in frontend
           development through learning and building applications.
@@ -40,7 +40,7 @@ const About = () => {
       </div>
       <div className="py-16">
         <h3 className="subhead-text">Work Experience</h3>
-        <div className="mt-5 flex flex-col gap-3 text-slate-500">
+        <div className="mt-5 flex flex-col gap-3 text-slate-300">
           <p>
             I've worked with one company, leveling up my skills and teaming up
             with smart people. Here's the rundown:
@@ -67,6 +67,7 @@ const About = () => {
                   borderStyle: "solid",
                   borderBottomColor: experience.iconBg,
                   boxShadow: "none",
+                  backgroundColor: "#e5e7eb",
                 }}
               >
                 <div>

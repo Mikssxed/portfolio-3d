@@ -12,7 +12,7 @@ const Projects = () => {
           Projects
         </span>
       </h1>
-      <div className="mt-5 flex flex-col gap-3 text-slate-500">
+      <div className="mt-5 flex flex-col gap-3 text-slate-300">
         <p>
           I've embarked on few projects throughout my journey, but these are the
           ones I hold closest to my heart. If you come across something that
@@ -34,24 +34,24 @@ const Projects = () => {
               </div>
             </div>
             <div className="mt-5 flex flex-col">
-              <h4 className="text-2xl font-poppins font-semibold">
+              <h4 className="text-2xl text-slate-200 font-poppins font-semibold">
                 {project.name}
               </h4>
-              <p className="mt-2 text-slate-500">{project.description}</p>
+              <p className="mt-2 text-slate-300">{project.description}</p>
               <div className="mt-5 flex items-center gap-2 font-poppins">
                 <Link
                   to={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-semibold text-blue-600"
+                  className="font-semibold text-violet-500 flex items-center gap-2"
                 >
                   Live Link
+                  <img
+                    src={arrow}
+                    alt="arrow"
+                    className="w-4 h-4 object-contain text-violet-500"
+                  />
                 </Link>
-                <img
-                  src={arrow}
-                  alt="arrow"
-                  className="w-4 h-4 object-contain"
-                />
               </div>
             </div>
           </div>

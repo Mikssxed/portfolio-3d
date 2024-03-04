@@ -18,37 +18,22 @@ import {
   threads,
   typescript,
 } from "../assets/icons";
-import { starbucks } from "../assets/images";
+import { ulam } from "../assets/images";
 
 export const skills = [
-  {
-    imageUrl: css,
-    name: "CSS",
-    type: "Frontend",
-  },
-  {
-    imageUrl: git,
-    name: "Git",
-    type: "Version Control",
-  },
-  {
-    imageUrl: github,
-    name: "GitHub",
-    type: "Version Control",
-  },
   {
     imageUrl: html,
     name: "HTML",
     type: "Frontend",
   },
   {
-    imageUrl: javascript,
-    name: "JavaScript",
+    imageUrl: css,
+    name: "CSS",
     type: "Frontend",
   },
   {
-    imageUrl: mui,
-    name: "Material-UI",
+    imageUrl: javascript,
+    name: "JavaScript",
     type: "Frontend",
   },
   {
@@ -62,13 +47,28 @@ export const skills = [
     type: "State Management",
   },
   {
-    imageUrl: tailwindcss,
-    name: "Tailwind CSS",
+    imageUrl: typescript,
+    name: "TypeScript",
     type: "Frontend",
   },
   {
-    imageUrl: typescript,
-    name: "TypeScript",
+    imageUrl: git,
+    name: "Git",
+    type: "Version Control",
+  },
+  {
+    imageUrl: github,
+    name: "GitHub",
+    type: "Version Control",
+  },
+  {
+    imageUrl: mui,
+    name: "Material-UI",
+    type: "Frontend",
+  },
+  {
+    imageUrl: tailwindcss,
+    name: "Tailwind CSS",
     type: "Frontend",
   },
 ];
@@ -77,8 +77,8 @@ export const experiences = [
   {
     title: "Junior Frontend Developer",
     company_name: "ULAM Labs",
-    icon: starbucks,
-    iconBg: "#accbe1",
+    icon: ulam,
+    iconBg: "#E00766",
     date: "February 2023 - Current",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
